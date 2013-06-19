@@ -1,0 +1,366 @@
+%\RequirePackage[ngerman=ngerman-x-latest]{hyphsubst}
+\documentclass[widefront, ngerman]{jura}
+\usepackage[top=2.5cm, bottom=1.9cm]{geometry}
+\usepackage[utf8]{inputenc}
+% inkompatible mit biblatex? \usepackage{ucs}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{scrpage2}
+%\usepackage{hyphsubst}
+%\HyphSubstLet{ngerman}{ngerman-x-latest}
+\usepackage[ngerman]{babel}
+\usepackage[babel,german=quotes]{csquotes}
+% angeblich machen ngerman und biblatex Probleme, deswegen german
+\sloppy
+\usepackage[T1]{fontenc}
+\usepackage{url}
+\usepackage{eurosym}
+\usepackage[style=authortitle-dw,
+firstnamefont=smallcaps,namefont=smallcaps
+]{biblatex}
+\bibliography{VerwR2}
+\DeclareFieldFormat%[customa]
+{prenote}{\emph{#1} in:}
+\DeclareFieldFormat
+  [article,inbook,incollection,inproceedings,patent,thesis,unpublished]
+  {title}{\mkbibquote{#1\isdot}}
+
+\DeclareBibliographyDriver{cite:article}{ %Dieser Absatz sorgt für die richtige Zitierweise von juristischen Artikeln in Fußnoten
+%	\ignorespaces
+%  	\usebibmacro{journaltitle}
+	\printfield{author}
+%  	\newunit
+%	\printfield{journal}
+%  	\printfield{year}
+}
+
+
+% das macht die Kopfzeile:
+\pagestyle{scrheadings}
+\chead
+
+%%%%%%%%%%%%%
+
+\begin{document}
+\frontmatter
+\author{Luka Lüdicke\\
+Matr-Nr. %Matrikelnummer\\
+Straße Hausnummer\\PLZ Stadt\\
+E-Mail: Adresse}
+\title{Hausarbeit\\ Verwaltungsrecht II}
+\date{Wintersemester 2010/11\\
+Professor Dr. Stefan Kadelbach\\
+Goethe-Universität}
+
+\maketitle
+
+\begin{sachverhalt}
+Der 1888 eröffnete Frankfurter Hauptbahnhof ist, entsprechend den damaligen Voraussetzungen, als Kopfbahnhof konzipiert. Deshalb müssen Züge, die nicht in Frankfurt enden, den Bahnhof erst wieder „rückwärts“ verlassen, um ihre Fahrt fortzusetzen. „Frankfurt 21“, ein Projekt der Deutschen Bahn AG zum Umbau des Bahnknotens Frankfurt am Main, wurde 1996 vorgestellt, 2002 aber wieder fallengelassen. Der Frankfurter Hauptbahnhof sollte danach über einen zweiröhrigen, insgesamt viergleisigen Tunnel mit dem Ostbahnhof verbunden werden. Auf diese Weise sollte der Hauptbahnhof zum Durchgangsbahnhof umgebaut und damit ein Zeitgewinn von etwa zehn Minuten erreicht werden. Nehmen Sie an, die Planungen wurden 2009 wiederbelebt, und im Frühjahr 2011 beginnen die Bauarbeiten. Diese Bauarbeiten werden von Protesten aus der Bevölkerung begleitet. Gegner des Vorhabens, die es für nicht sinnvoll und zu teuer halten, demonstrieren auf dem Bahnhofsvorplatz und in der näheren Umgebung. Dabei versuchen sie teilweise auch, sowohl den Fortgang der Bauarbeiten als auch den Zugverkehr zu behindern.\\
+\\
+Durch die Protestaktionen wird auch wiederholt die Pünktlichkeit des zwischen Frankfurt und Paris verkehrenden französischen Hochgeschwindigkeitszuges TGV beeinträchtigt. Mit dem Zug fahren daher auch drei uniformierte Beamte der französischen Bereitschaftspolizei Compagnies Républicaines de Sécurité. Auf Anweisung des Einsatzleiters der hessischen Polizei beteiligen sie sich an einem grundsätzlich rechtmäßigen Einsatz, durch den in Frank-furt angekommenen Fahrgästen des TGV ein Weg über den Bahnhofsplatz zum Taxistand gebahnt werden soll. Zweck des Einsatzes ist unter anderem der „Austausch taktischer Erfahrungen“ bei der Bewältigung vergleichbarer Einsatzlagen. Die Rechtsgrundlage hierfür soll nach Ansicht der hessischen Polizei der „Vertrag über die Vertiefung der grenzüberschreitenden Zusammenarbeit, insbesondere zur Bekämpfung des Terrorismus, der grenz-überschreitenden Kriminalität und der illegalen Migration“ vom 27.5.2005 (BGBl. 2006-II, S. 626) bieten. In einer dynamischen Einsatzsituation kommt es dazu, dass ein französischer Polizist gegenüber dem demonstrierenden A, nachdem er ihn auf Deutsch aufgefordert hat, sich zu entfernen, seinen Schlagstock einsetzt. A erleidet dadurch Rippenbrüche und begibt sich in ärztliche Behandlung.\\
+\\
+Bei einer der Protestkundgebungen südlich des Bahnhofs, zwischen Mannheimer und Pforzheimer Straße, setzt die hessische Polizei nach rechtmäßiger Auflösung einer Versammlung zur Räumung des Platzes auch Wasserwerfer ein. Sie handelt dabei auch in Amtshilfe für die Bahnpolizei, weil der Einsatz auch dazu dient, das Gleisvorfeld des Hauptbahnhofes von Demonstranten frei zu halten. Weil er ohne Vorwarnung im Gesicht vom Wasserwerfer getroffen wird, erleidet B dabei schwerste Augenverletzungen. Die Augenlider sind zerrissen, der Augenboden eines Auges ist gebrochen, die Netzhaut eingerissen, die Linsen sind zerstört und müssen durch Kunstlinsen ersetzt werden. Nicht aufklären lässt sich, ob B den Einsatz des Wasserwerfers auf ihn dadurch provoziert hat, dass er Gegenstände in Richtung der Polizei geworfen hat. Er selbst behauptet, als Passant zufällig des Weges gekommen zu sein, um am Hauptbahnhof den Zug nach Wiesbaden zu nehmen, und mit der Demonstration nichts zu tun zu haben. Der Grund für die Anwesenheit des B lässt sich nicht mehr klären. Unklar ist auch, ob B deshalb so schwer vom Wasserwerfer getroffen worden ist, weil der Wasserstrahl abgeirrt, das Gerät fehlerhaft bedient oder das Strahlrohr gezielt auf ihn gerichtet worden ist. Eine interne Polizeidienstvorschrift verlangt, dass darauf geachtet wird, „dass Köpfe nicht getroffen werden“.\\
+\\
+Zu den Demonstranten gehört auch C, der sich gegen den Ausbau des Frankfurter Hauptbahnhofs nicht nur deshalb wendet, weil er die Baukosten in Milliardenhöhe für eine „Verschwendung öffentlicher Mittel“ hält, sondern auch aus eigennützigen Gründen. Er ist Eigentümer eines Hauses in der Karlsruher Straße in unmittelbarer Bahnhofsnähe, in dem er ein gut gehendes kleines Hotel betreibt, und sieht sich durch die Baumaßnahmen beeinträchtigt. Sein Haus steht laut dem inzwischen unanfechtbaren Planfeststellungsbeschluss genau über einer der projektierten Tunnelröhren. Deshalb soll sein Grundstück notfalls zwangsweise mit einer Dienstbarkeit belastet werden. Außerdem befürchtet er Erschütterungen infolge des Zugbetriebs im Tunnel, die auch zu Schäden an seinem Haus führen könnten. Zudem ist er sich nicht klar darüber, ob eine schon länger erwogene baurechtlich zulässige Aufstockung des Gebäudes um zwei weitere Stockwerke bautechnisch noch zu realisieren ist, wenn im Untergrund an dieser Stelle in 20 m Tiefe ein Tunnel verläuft.\\
+\\
+\underline{Aufgabenstellung:}\\
+Fertigen Sie ein Gutachten, in dem Sie auf alle mit den folgenden Fragen aufgeworfenen Rechtsprobleme eingehen: Welche Ansprüche hat A wegen des Schlagstockeinsatzes gegen staatliche Hoheitsträger der Bundesrepublik? Welche Ansprüche hat B gegen staatliche Hoheitsträger wegen des Wasserwerfereinsatzes? Welche öffentlich-rechtlichen Ansprüche hat C, falls sich seine Befürchtungen realisieren?
+\end{sachverhalt}
+
+\tableofcontents
+
+\printbibliography[maxnames=10]
+
+%% Hauptteil %%
+
+\mainmatter
+\boldmath
+
+\begin{center}
+\large\bfseries Gutachten
+\normalsize \mdseries
+\end{center}
+
+\toc{Anspruch des A}
+\sub{§64 HSOG}
+\sub{Anspruchsgrundlage}
+A könnte gegen die hessische Polizei gem. § 64 I HSOG einen Anspruch auf Schadensausgleich wegen dem Gesundheitsschaden durch den Schlagstockeinsatz des französischen Polizisten haben. Bei einer rechtmäßigen Maßnahme könnte A einen Anspruch aus § 64 I S.1 HSOG haben; bei einer rechtswidrigen Maßnahme würde der Anspruch durch Satz 2 begründet. Daher ist zunächst zu prüfen, ob der Schlagstockeinsatz rechtmäßig war\footcite[\S §27 Rn. 33]{PierothSchlinkPolizei}.
+\toc{Anspruchsvoraussetzungen}
+\sub{Rechtmäßigkeit der Maßnahme}
+Der Begriff der Maßnahme ist hier weit zu verstehen und umfasst sowohl Verwaltungsakte als auch Realakte
+\footnote{\cite[Rn. 315]{MuehlLeggereitHausmann}; Vgl.
+\cite[(250)]
+{RumpfNVwZ1992}, der erläutert, warum insbesondere bei polizeilichen Handeln Realakte und Verwaltungsakte umfasst sind.
+}.\\
+Ein Realakt ist eine rein tatsächliche Verwaltungshandlung\footcite[Rn 450]{detterbeckVerwR}. Der französische Polizist schlägt den A nach der Aufforderung an ihn, sich vom Platz zu entfernen (Platzverweis) mit seinem Schlagstock. Dies geschieht in einer dynamischen Einsatzsituation. Somit liegt eine Maßnahme i.S.d. §64 I 1 HSOG vor.\\
+Die Maßnahme ist rechtmäßig, wenn sie auf einer Ermächtigungsgrundlage beruht und formell sowie materiell rechtmäßig ist\footcite[\S 27 Rn. 31f.]{PierothSchlinkPolizei}.
+
+\sub{Ermächtigungsgrundlage}
+A ist Teilnehmer einer Demonstration, während der Polizist auf ihn einschlägt. Fraglich ist, ob das VersG anzuwenden ist.\\
+% Def Versammlung +
+\sub{VersG oder HSOG?}
+Eine Versammlung i.S. von Art. 8 I GG und §1 I VersG ist nach dem BVerfG eine örtliche Zusammenkunft mehrerer Personen zur gemeinschaftlichen, auf die Teilhabe an der öffentlichen Meinungsbildung gerichteten Erörterung oder Kundgebung\footnote{BVerfGE 104, 92.}. Nach dem erweiterten Versammlungsbegriff ist die Erörterung von privaten Angelegenheiten inbegriffen\footcite[Kunig][Art. 8 Rn. 17]{MuenchKunig1}. 
+Nach dem weiten Versammlungsbegriff ist für das Vorliegen einer Versammlung lediglich eine gemeinsame Zweckverfolgung notwendig und die Art des Zwecks unbedeutend\footnote{\cite[Schulze-Fielitz][Art. 8 Rn 23ff.]{DreierGG1}; \cite[Rn 752ff.]{PierothSchlinkGG}. }. \\
+Vom Versammlungsbegriff ausgeschlossen ist die "`selbsthilfeähnliche Durchsetzung eigener Forderungen"'\footnote{BVerfGE 104, 92 (105); \cite[§15 Rn 195]{DietelGintzelKniesel}.}; zumindest wenn eine Blockadeaktion o.Ä. "`nicht nur Nebenfolge [...], sondern Hauptzweck der Aktion"' ist und nicht dem Kommunikationszweck dient\footcite[S.122ff.]{schwaeble}.\\
+Hier tun sich mehrere BürgerInnen zusammen, um gegen den Umbau eines öffentlichen Bahnhofs zu protestieren. Somit liegt nach allen drei Versammlungsbegriffen eine Versammlung vor. Die Blockade des Bahnhofsvorplatz ist nur eine Nebenfolge der Protestkundgebung oder höchstens die gezielte Aktion einer Teilnehmergruppe\footnote{wie beispielsweise bei \cite[§1 Rn 253]{DietelGintzelKniesel}.}.\\
+% polizeiliche Maßnahme gegen die Versammlung? / versammlungsspezifische polizeiliche Maßnahme?
+Die Gefahr, gegen die sich die Maßnahme richtet, muss für eine Anwendung des Versammlungsrechts spezifisch aus dem Stattfinden einer Gefahr kommen\footnote{\cite[Rn 419]{Gusy}; \cite[§20 Rn 16]{PierothSchlinkPolizei}.}. Eine Gefahr liegt vor, wenn eine Sachlage oder ein Verhalten bei ungehindertem Ablauf des zu erwartenden Geschehens mit hinreichender Wahrscheinlichkeit Wahrscheinlichkeit ein polizeilich geschütztes Rechtsgut schädigen wird\footcite[§4 Rn 31]{PierothSchlinkPolizei}.\\
+Würde der Protestkundgebung ungehindert weiterlaufen, wäre der Taxiplatz für Zugpassagiere nicht mehr zu erreichen. Dies schädigt die öffentliche Ordnung. Die Zugverspätungen und die Nicht-Erreichbarkeit des Taxiplatzes ist eine zwingende Folge der Protestkundgebung. Somit ist Versammlungsrecht anzuwenden.
+% UND hat das VersG Sperrwirkung? (Meinungsstreit?)
+Umstritten ist, ob das VersG polizeifest ist, ob es also die Anwendung des HSOG ausschließt. Eigentlich kann in eine Versammlung und gegen ihre TeilnehmerInnen die Polizei nur aufgrund des VersG eingreifen. Doch nach einer Auffassung sind als "'Minusmaßnahmen"' aufgrund von §15 III VersG i.V.m. mit allgemeinem Polizeirecht Maßnahmen gegen eine Versammlung zulässig\footnote{BVerfGE 69, 315 (353); mit Verweis auf BVerwGE 64, 55.}. Nach einer zweiten Auffassung kann das nicht abschließende VersG durch Landespolizeirecht ergänzt werden\footcite{schnurVR2000}. Nach einer dritten Meinung sind die Minusmaßnahmen gar nicht erforderlich und dementsprechend ein Rückgriff auf das Polizeirecht nicht geboten\footcite[§20 Rn 15]{PierothSchlinkPolizei}.\\
+Für die strenge Sperrwirkung des VersG könnte sprechen, dass Minusmaßnahmen nicht grundsätzlich verhältnismäßiger sind als die Auflösung oder der Ausschluss aus der Versammlung\footcite[Kniesel/Poscher][J Rn 29f.]{HandbuchPolizeirecht}.
+Für Maßnahmen gegen die Gesamtversammlung trifft dies allerdings nicht zu\footcite[(721) Fn 5]{schwabeDesaster}; höchstens für Maßnahmen gegen einzelne Teilnehmer\footnote{so wie es beschrieben ist bei \cite[Kniesel/Poscher][J Rn 29f.]{HandbuchPolizeirecht}.}. Es dürfte wohl kaum ein Problem sein, einer/m Versammlungsteilnehmer/in verständig zu machen, dass er/sie durch ein bestimmtes Verhalten aus der Versammlung ausgeschlossen wird und dann den "`Schutz"' des VersG verwirkt.
+Da die Länder die Gesetzgebungskompetenz für das Versammlungsrecht haben und das VersG nur gem. Art. 125a I GG fortgilt, ist zu beachten, dass das VersG nur insoweit Sperrwirkung haben kann, wie es Einzelprobleme abschließend regelt\footnote{\cite[(118)]{schnurVR2000}; \cite[Kniesel/Poscher][J Rn 19f., 147]{HandbuchPolizeirecht}.}. Ob Regelungslücken bestehen, ist hauptsächlich anhand des Grundsatzes der Verhältnismäßigkeit neben den klassischen Auslegungsmethoden zu ergründen\footcite[(118)]{schnurVR2000}.
+§18 III VersG erlaubt nur den Ausschluss von Störern, die die Ordnung der eigenen Versammlung stören\footcite[§18 Rn 32ff.]{DietelGintzelKniesel}. Wie mit TeilnehmerInnen umgegangen werden soll, die die öffentliche Ordnung stören, ist damit nicht gesagt. Zudem sind z.B. eng begrenzte Platzverweise und keine schwerwiegenden Eingriffe. Die Erfordernis des Ausschlusses jegliche polizeilichen Maßnahmen bei einer Versammlung ist also unverhältnismäßig\footcite[(723)]{schwabeDesaster}.\\
+\toc{Verfassungswidrigkeit wegen Zitiergebot?}
+Umstritten ist, ob bei Versammlungen das allgemeine Polizeirecht wegen dem Zitiergebot gem. Art. 19 I S. 2 GG nicht angewendet werden kann.\\
+Für die strenge Beachtung des Zitiergebots spricht, dass das Zitiergebot nicht endgültig entleert werden sollte\footcite[Kniesel/Poscher][J Rn. 144]{HandbuchPolizeirecht}. Dagegen spricht, dass von gesetzlichen Ermächtigungen regelmäßig nicht betroffene Grundrechte vom Zitiergebot auszunehmen sollten, weil sonst der Gesetzgeber für alle Eventualitäten alle Grundrechte zitieren müsste und die Minusmaßnahmen wie Platzverweise, Ingewahrsahmnahmen u.Ä. aus dem allgemeinen Polizeirecht haben grundsätzlich keinen Bezug zur Meinungsfreiheit\footcite[(199f.)]{schnurVR2000}.
+% klausurtaktisch erwünschtes Ergebnis: Anwendung von allgemeinem Polizeirecht, aber eigentlich ist die hier geführte Argumentation schwachsinn...
+\toc{Zwischenergebnis}
+Folglich ist als Ermächtigungsgrundlage anzuwenden:\\
+Vollstreckung des Platzverweises mithilfe unmittelbaren Zwangs, gem. §§47f., 52ff. HSOG als Minusmaßnahme zum Ausschluss aus der Versammlung gem. §18 III VersG.
+(spezifische Normen benennen)
+\levelup \toc{Formelle Rechtmäßigkeit}
+\sub{Zuständigkeit}
+Die hessische Polizei ist für den Frankfurter Bahnhofsvorplatz zuständig.\\
+% hier noch mehr?
+Gem. §52 I S. 1 HSOG kann unmittelbarer Zwang von Polizeibehörden und sonstigen Personen, denen die Anwendung unmittelbaren Zwangs gestattet ist, angewendet werden.
+Fraglich ist, ob dem französischen Polizist die Befugnisse der Polizeibehörden zugeteilt werden oder ob ihm durch sonstige Normen die Anwendung unmittelbaren Zwangs gestattet wird.\\
+In Betracht kommt hier eine Ermächtigung durch den Vertrag von Prüm. Gemäß Art. 24 II PrümVtr darf Deutschland aus Frankreich entsendete polizeiliche Beamte mit hoheitlichen Befugnissen ausstatten, welche gem. S. 2 nur unter Leitung von deutschen Beamten ausgeführt werden dürfen. Allerdings ist diesen entsendeten Beamten gem. Art. 28 II S. 1 PrümVtr die Benutzung ihrer Dienstwaffen, Ausrüstung usw. nur zur Nothilfe oder Notwehr erlaubt.\\
+Der Polizist setzt hier den Schlagstock zwar in einer dynamischen Einsatzsituation ein; doch er hätte, nachdem er den A zum Verlassen des Platzes aufforderte auch einen anderen Beamten zur Durchsetzung dieser Aufforderung heranrufen können.\\
+Außerdem müsste gem. §102 III S. 2 HSOG Gegenseitigkeit gewährleistet sein oder eine Zustimmung des hessischen Innenministeriums vorliegen.
+Hier stimmt aber lediglich der Einsatzleiter der hessischen Polizei dem Einsatz der französischen Polizisten zu.
+
+\toc{Zwischenergebnis}
+Folglich ist die Maßnahme formell rechtswidrig.
+
+\levelup \toc{Zwischenergebnis}
+Der Schlagstockeinsatz war rechtswidrig. Somit ist §64 I S. 2 HSOG anzuwenden und der Anspruch auf Schadensausgleich besteht für jedeN, unabhängig von der Pflichtigkeit.
+
+\levelup \toc{Schaden}
+A erlitt einen Rippenbruch und somit einen Schaden.
+\toc{Kausalität}
+Die rechtswidrige Maßnahme müsste kausal für den Schaden sein. Dies ist der Fall.
+\levelup \toc{Anspruchsinhalt}
+\sub{Angemessener Ausgleich in Geld}
+A bekommt Geld von der hessischen Polizeibehörde.
+\toc{Mitverschuldensanrechnung}
+Ein bisschen weniger vielleicht, weil er den Platzverweis nicht befolgt hat.
+
+\levelup \toc{Zwischenergebnis}
+Folglich hat A gem. §64 I S. 2 HSOG einen Anspruch auf angemessenen Schadensausgleich wegen dem rechtswidrigen Schlagstockeinsatz.
+\levelup \toc{Amtshaftungsanspruch}
+A könnte aus §838 BGB i.V.m. Art. 34 GG einen Amtshaftungsanspruch wegen dem Schlagstockeinsatz haben.
+\sub{Amtsträgerhandlung in Ausübung öffentlichen Amtes}
+Es "jemand" i.S.d. Art. 34 S. 1 GG für den Staat oder einen Träger öffentlicher Gewalt gehandelt haben. Es muss keinE BeamteR im statusrechtlichen Sinn sein\footcite[Rn 1055]{detterbeckVerwR}. Die Handlung muss in Ausübung eines öffentlichen Amtes geschehen. Zwischen dem Schlagstockeinsatz und der öffentlich-rechtlichen Tätigkeit muss ein "`äußerer und innerer Zusammenhang bestehen"', muss also räumlich-zeitlich in den öffentlich-rechtlichen Tätigkeitsbereich eingebettet sein und als einheitlicher mit hoheitlichem Charakter geprägter Lebenssachverhalt erscheinen\footcite[Rn 1058ff.]{detterbeckVerwR}.\\
+Der CRS-Beamte ist hier durch Art. 24 II PrümVtr mit hoheitlichen Befugnissen ausgestattet und handelt somit öffentlich-rechtlich. Seinen Schlagstock setzt er zur Vollstreckung des Platzverweises während seines Einsatzes ein. Folglich handelt der CRS-Beamte hier in Ausübung eines öffentlichen Amtes.
+\toc{Verletzung einer drittgerichteten Amtspflicht}
+Der CRS-Beamte müsste gegen eine ihm einem Dritten gegenüber obliegende Amtspflicht verstoßen haben.
+\sub{Amtspflicht}
+Amtspflichten sind Pflichten, die dem öffentlich-rechtlich Handelnden gegenüber seinem Dienstherren obliegen. In Betracht kommt das Verbot unerlaubte Handlungen zu begehen, die absolute Rechte von BürgerInnen verletzen; hier das Grundrecht auf körperliche Unversehrtheit gem. Art. 2 II GG\footcite[Rn 1065]{detterbeckVerwR}.
+\toc{Drittrichtung der Amtspflicht}
+Die Amtspflicht muss gegenüber dem A als Geschädigten bestehen\footcite[Rn 1066f.]{detterbeckVerwR}. Als subjektives öffentliches Recht begründet das Recht auf körperliche Unversehrtheit die Drittrichtung der Amtspflicht.
+\toc{Verstoß gegen die Amtspflicht}
+Es liegt kein Verstoß gegen die Amtspflicht vor, wenn der Schlagstockeinsatz durch eine Handlung erlaubt wäre. Dies ist nicht der Fall (siehe oben).
+\levelup \toc{Verschulden}
+Gem. §839 I S. 1 BGB muss ein Verschulden des Amtswalters -- hier dem französischen Polizisten -- vorliegen\footcite[S. 72]{Ossenbuehl}. Bei unrichtiger Rechtsanwendung kommt es "`auf die Kenntnisse und Einsichten des Beamten an, die für die Führung des übernommenen Amtes erforderlich sind"'\footnote{\cite[S. 74]{Ossenbuehl}; BGHZ 117, 240 (249).} und von jeder/m Beamte/n ist es gefordert, diese Kenntnisse besitzen oder sich zu verschaffen.\\
+Hier ist die Rechtslage nicht zweifelhaft\footcite[Rn 1081]{detterbeckVerwR}. Wenn ausländische Polizeivollzugsbeamte in anderem Nationalstaat als dem eigenen eingesetzt werden, dann sollte es Standard sein, dass diese sich zumindest von anderen darüber aufklären lassen, welche hoheitlichen Befugnisse sie in dem fremden Gebietsstaat haben. Der französische Polizist hätte hier in dem Einsatz einen hessischen Kollegen zu Hilfe holen sollen, wenn er absehen konnte, dass er seine Dienstwaffen einsetzen muss. Somit verstoß er schuldhaft gegen seine Amtspflicht.
+
+\toc{Schaden und Kausalität}
+A müsste einen Schaden erlitten haben, der adäquat kausal durch die Amtspflichtverletzung verursacht wurde\footcite[§9 Rn 163ff.]{DetterbeckStaatshaftung}.\\
+A erleidet hier einen Rippenbruch. Dieser wurde unmittelbar durch den Schlagstockeinsatz des französischen Polizisten verursacht.
+
+\toc{Rechtsfolgen}
+A kann Ersatz für den entstandenen Schaden in Geld verlangen\footcite[Rn 1093]{detterbeckVerwR}. Hier bekommt er Ersatz für die angefallenen Arztkosten.\\
+Gem. Art. 34 S.1 GG haftet der Staat oder die Körperschaft, in deren Dienst der Amtsträger steht.
+Nach der Anvertrauenstheorie ist Anspruchsgegner derjenige Hoheitsträger, der dem Amtsträger das Amt anvertraut hat\footcite[Rn 1096]{detterbeckVerwR}.\\
+Hier hat die hessische Polizeibehörde dem französischen Polizisten hoheitliche Befugnisse i.S.d. PrümVtr anvertraut und ihn in den Einsatz geschickt. Folglich ist die hessische Polizeibehörde hier Anspruchsgegner.
+
+
+
+\levelup\toc{Ergebnis}
+A hat wegen dem Schlagstockeinsatz einen Anspruch auf Schadensausgleich gem. §64 I S.2 HSOG; ein Amtshaftungsanspruch bleibt gem. §64 IV HSOG unberührt und dementsprechend hat er daneben einen Amtshaftungsanspruch auf Schadensersatz gem. §839 BGB i.V.m. Art. 34 GG.
+
+% "Aufgabe 2"
+
+\levelup \toc{Anspruch des B}
+\sub{§51 BPolG}
+Die hessische Polizei handelt hier in Amtshilfe für die Bahnpolizei; also gem. §3 BPolG für die Bundespolizei. Somit könnte B einen Anspruch aus §§51, 55 I BPolG gegen die Bundesrepublik Deutschland wegen dem Wasserwerfereinsatz haben. Ob hierbei §51 Abs. 1 oder Abs. 2 angewendet wird, hängt von der Rechtmäßigkeit der Maßnahme ab.
+\sub{Rechtmäßigkeit der Maßnahme}
+\sub{Ermächtigungsgrundlage für die Zwangsmaßnahme}
+Hier war die Versammlung rechtmäßig aufgelöst. Somit ist aus ihr eine Ansammlung geworden, wodurch das VersG nicht mehr anzuwenden ist\footcite[§21 Rn 3]{PierothSchlinkPolizei}. 
+Gemäß §64 I, II BPolG kommen den Polizeivollzugsbeamten der Länder bei der Wahrnehmung von Aufgaben der Bundespolizei die landesrechtlichen Befugnisse zu. Das HSOG geht hierbei dem HessVwVG als lex specialis vor\footcite[Rn 1008]{detterbeckVerwR}. Somit kommen als Ermächtigungsgrundlage die §§47-55, 58 HSOG in Betracht.
+\sub{Gestrecktes oder gekürztes Zwangsverfahren?}
+Fraglich ist, ob hier nach dem gestreckten oder gekürzten Vollstreckungsverfahren gehandelt werden durfte; ob also ein Sofortvollzug gem. §47 II HSOG angewendet werden durfte. Dieser müsste zur Gefahrenabwehr notwendig sein - wenn z.B. der Erlass einer Verfügung, die mit der Androhung von Zwangsmitteln kombiniert wird, möglich ist, dann ist der Sofortvollzug nicht zulässig\footcite[Rn 281]{MuehlLeggereitHausmann}. Außerdem ist chrakteristisch für den Sofortvollzug, dass der Zwang ohne vorausgehenden Verwaltungsakt angewendet wird\footcite[§24 Rn 38]{PierothSchlinkPolizei}.\\
+Hier befinden sich die TeilnehmerInnen der aufgelösten Versammlung auf dem Platz zwischen zwei Straßen und nicht schon auf dem Gleisvorfeld. Deswegen reicht aus, dass gegen sie mit Androhungen kombinierte Platzverweise ausgesprochen werden, damit sie von den Gleisen fern bleiben. Zudem ist mit der Auflösung der Versammlung bereits ein zu vollziehender Verwaltungsakt ergangen. Folglich ist die Anwendung von Sofortvollzug nicht erforderlich und das "`gestreckte"' Verfahren anzuwenden.
+\toc{Zwangsmittel}
+Hier könnte die Anwendung unmittelbaren Zwangs gem. §§52, 55 HSOG vorliegen. Gem. §55 I HSOG ist unmittelbarer Zwang die die Einwirkung auf Personen durch körperliche Gewalt oder durch ihre Hilfsmittel. Ziel der Einwirkung ist die Überwindung eines der polizeilichen Anordnung widerstrebenden Verhaltens -- also als Beugemittel einzusetzen\footcite[§52 Rn 1, §55 Rn 4]{HornmannHSOG}.\\
+Der Wasserwerfer ist explizit in §55 III HSOG als Hilfsmittel genannt und er wirkt unmittelbar auf die Personen in der Menschenansammlung ein. Mit dem Einsatz sollen die Personen auf dem Platz dazu bewegt werden, sich zu entfernen. Somit liegt hier unmittelbarer Zwang vor.
+
+\levelup \toc{Formelle Rechtmäßigkeit}
+\sub{Zuständigkeit}
+Die Maßnahme dient zur Abwehr von Gefahren für die öffentliche Sicherheit und Ordnung, die den Anlagen der Bahn drohen und fällt somit gem. §3 I Nr. 1 BPolG in den Aufgabenbereich 
+der Bundespolizei. Hier handelt die hessische Polizei -- sie tut dies aber in Amtshilfe. Ihr Handeln wird der Bundespolizei zugerechnet. \\
+Nach §47 III S.1 HSOG ist zur Zwangsmittelanwendung diejenige Behörde zuständig, die den polizeilichen Verwaltungsakt erlassen hat. Die hessische Polizei hat hier den Platzverweis (nicht die Versammlungsauflösung ist der vollstreckbare Verwaltungsakt\footnote{\cite[Kniesel/Poscher][J Rn 394]{HandbuchPolizeirecht}; a.A. \cite[Rn 429]{Gusy}.}) verfügt. Somit ist die hessische Polizei zur Anwendung unmittelbaren Zwangs zuständig.
+\toc{Verfahren}
+Es muss eine Grundverfügung vorliegen; die vorzunehmende Handlung muss also angeordnet werden\footcite[Rn 452]{Gusy}. Hier ist trotz mangelnder Angaben im Sachverhalt davon auszugehen, dass die Polizei die TeilnehmerInnen der Protestkundgebung dazu aufgefordert hat, den Platz zu verlassen.\\
+\sub{Androhung}
+Vor der Anwendung unmittelbaren Zwangs ist dieser gem. §58 HSOG anzudrohen.\\
+Hier könnte eine Menschenmenge gem. §58 III HSOG vorliegen. Eine Menschenmenge ist eine räumlich vereinigte, nicht sofort überschaubare Personenvielheit, die aufgrund ihrer Anzahl eine Gefährdung der öffentlichen Sicherheit und Ordnung herbeiführen kann\footcite[§58 Rn 9]{HornmannHSOG}. Die Ansammlung hat sich aus der aufgelösten Protestkundgebung entwickelt, die möglicherweise als Gruppe auf die Bahngleise laufen. Somit liegt hier eine Menschenmenge vor.\\
+Gem. §58 III HSOG muss gegenüber einer Menschenmenge die Androhung möglichst so rechtzeitig zu erfolgen, dass sich Unbeteiligte entfernen können. Unbeteiligte sind Personen, die sich mit dem Anliegen der Menschenmenge nicht identifizieren, weil sie sich z.B. nur aus Zufall in der Menschenmenge aufhalten\footcite[§58 Rn 10]{HornmannHSOG}. B wollte hier nach seiner Aussage nur zu dem Zug gehen. Somit wäre er dementsprechend Unbeteiligter.\\
+Daraus muss aber -- zumal der Grund von Bs Anwesenheit unklar ist -- noch nicht geschlossen werden, dass sich Unbeteiligte nicht entfernen konnten. Es könnte allein schon die bloße Präsenz des Wasserwerfers eine rechtzeitige Androhung darstellen\footnote{Analog zu der Präsenz von Polizeihunden: vgl. VG Lüneburg 3 A 124/02; diese waren allerdings ohne Beißkorb, also unmittelbar kampfbereit präsent.}. Außerdem sind bei einem Platz neben einem Bahnhof Unbeteiligte gewöhnlich nicht dauerhaft anwesend, sondern laufen meistens nur kurz über den Platz, sodass es unerheblich ist, ob ein Wasserwerfer drei, zehn oder 30 Minuten vor der Anwendung angedroht wird.
+Allerdings kann ein Wasserwerfer zu erheblichen Verletzungen führen\footcite[Rachor][F Rn 901]{HandbuchPolizeirecht}, weshalb besonders auf die "`Eindeutigkeit und Verständlichkeit der Androhung"' geachtet werden soll\footcite[Anmerkungen zu §39, S. 118]{MusterentwurfPolizeigesetz}.\\
+Mangels konkreter Angaben im Sachverhalt ist davon auszugehen, dass die Polizei wie üblich vorgegangen ist und die Anwendung des Wasserwerfers unmissverständlich per Lautsprecher angekündigt hat. Doch es sollte -- gerade bei einem Platz an dem Zugpassagiere entlanglaufen -- nicht sofort auf die Personen in der Menschenmenge geschossen werden. So ist es geboten, Wasserstöße zunächst in Intervallen und in Form der Wassersperre (Stößen, die erst auf den Boden geschossen werden) abzugeben\footnote{Vgl. BVerfG 1 BVR 831/89 Rn 38.}. Der Wasserstrahl erwischt hier direkt den B ohne Vorwarnung. Folglich ist das Verfahrenserfordernis der Androhung nicht erfüllt.
+
+\toc{Entbehrlichkeit der Androhung?}
+Gem. §58 I S. 2 kann auf die Androhung verzichtet werden, wenn die Umstände sie nicht zulassen. Dies ist insbesondere der Fall, wenn die sofortige Zwangsmittelanwendung zur Abwehr einer gegenwärtigen\footcite[§58 Rn 3]{MeixnerFriedrich} Gefahr erforderlich ist. Hierbei besteht Ermessen gem. § 40 HVwVfG\footcite[§58 Rn 5]{HornmannHSOG}. Gegenwärtig ist die Gefahr bei einer besonderen zeitlichen Nähe der Gefahrenverwirklichung und einer erhöhten Wahrscheinlichkeit des Schadenseintritts\footcite[Rn 78]{Schenke}.\\
+Zum Einen besteht die Gefahr für die öffentliche Sicherheit und Ordnung, dass sich Personen auf das wenige Meter von dem Platz entfernte Gleisvorfeld begeben und zum Anderen wurden Gegenstände in Richtung der Polizeivollzugsbeamten geworfen, wodurch eine Gefahr für Leib und Leben der Polizeibeamten bei weiterem ungehinderten Bestehen der Menschenansammlung vorliegt. Die Gefährdung der Polizeibeamten dauert während der Wurfaktion an und das Betreten der Gleise wäre nicht nur in kurzer Zeit möglich, die Protestierenden haben auch durch ihr Verhalten in der jüngsten Vergangenheit gezeigt, dass sie zu derartigen Blockadeaktionen entschlossen sind. Somit sind die Gefahren auch gegenwärtig.\\
+Fraglich ist, ob der Verzicht auf die Androhung notwendig ist. Notwendig ist eine Maßnahme, wenn mildere Maßnahmen gleich geeignet sind wie die eingriffsintensiveren\footcite[Rachor][F Rn 214]{HandbuchPolizeirecht}. Bei der Androhung in Form von intervallsmäßig abgegebenen Stößen oder Wassersperren wäre es den Protestierenden ermöglicht, sich andere Wege zu den Gleisen zu suchen, bei denen nicht auf Wasserwerfer treffen. Zudem ist das sofortige Treffen der Protestierenden effektiver zur Willensbeugung; erheblich mehr Protestierende werden erheblich schneller ihr Vorhaben, die Gleise zu blockieren, aufgeben. Die Androhung wäre nicht gleich erfolgversprechend. Somit ist die sofortige Anwendung des Wasserwerfers zur Gefahrenabwehr notwendig und die Androhung entbehrlich.
+
+\levelup \toc{Zwischenergebnis}
+Folglich war die Anwendung unmittelbaren Zwangs mit dem Hilfsmittel des Wasserwerfers formell rechtmäßig.
+
+\levelup \toc{Materielle Rechtmäßigkeit}
+Der Wasserwerfereinsatz müsste auch materiell rechtmäßig sein.
+
+\sub{Vollstreckbare Grundverfügung}
+Nach §47 I HSOG muss zunächst eine Grundverfügung in Form eines befehlenden Verwaltungsakts vorliegen\footcite[Rachor][F Rn 746]{HandbuchPolizeirecht}. Hier liegt ein Platzverweis gem. §31 I HSOG vor. Dieser ergeht gegen alle Personen, die sich auf dem Platz befinden.
+Der Verwaltungsakt müsste vollstreckbar sein. Hier kommt als Grund die Unaufschiebbarkeit gem. §80 II Nr. 2 VwGO in Betracht. Maßnahmen von Polizeivollzugsbeamten sind regelmäßig unaufschiebbar\footcite[§24 Rn 31]{PierothSchlinkPolizei}; es gibt keine Hinweise, dass der hier ausgesprochene Platzverweis dies nicht ist.\\
+Die Rechtmäßigkeit der Grundverfügung muss nicht überprüft werden\footnote{\cite[§24 Rn 32f.]{PierothSchlinkPolizei}; BVerfG 1 BvR 831/89 Rn 30.}.
+
+\toc{Fehlen von Vollstreckungshindernissen}
+Nach §48 IV HSOG muss den Verwaltungsaktadressaten die Befolgung tatsächlich und rechtlich möglich sein\footnote{Vgl. \cite[§24 Rn 34]{PierothSchlinkPolizei}.} . Der Platz war frei begehbar und somit war Protestierenden und auch PassantInnen das Verlassen des Platzes nicht verwehrt.
+
+\toc{Subsidiarität}
+Gem. §52 I S.1 HSOG ist die Polizeibehörde zur Anwendung unmittelbaren Zwangs erst dann befugt, wenn andere Zwangsmittel nicht in Betracht kommen, keinen Erfolg versprechen oder unzweckmäßig sind.\\
+§52 I S. 1 Var. 2 HSOG liegt vor, wenn der zu verfolgende Zweck nicht, nicht vollständig oder nicht rechtzeitig mit dem Zwangsmittel des Zwangsgelds oder der Ersatzvornahme erreicht werden kann\footcite[§52 Rn 11]{HornmannHSOG}.
+Ersatzvornahme kommt nur bei vertretbaren Handlungen in Frage\footcite[§24 Rn 10]{PierothSchlinkPolizei}; ein Platzverweis ist nicht vertretbar und somit die Ersatzvornahme hier ausgeschlossen. Zwangsgeld könnte hier schwerlich eingetrieben werden; dafür müssten zunächst Personalien festgestellt und die Menschenmenge festgehalten werden. Folglich kommt hier kein milderes Zwangsmittel als unmittelbarer Zwang in Betracht.
+
+\toc{Verhältnismäßigkeit}
+Die Art und Weise der Anwendung des Zwangsmittels müsste verhältnismäßig gem. §4 HSOG und grundrechtskonform sein.\\
+Der Wasserwerfer als Hilfsmittel der körperlichen Gewalt darf nur gebraucht werden, wenn einfache körperliche Gewalt nicht ausreicht\footcite[Rn 407]{Goetz}. Schonender könnte ein Wegtragen der Protestierenden sein. Doch dies wäre wegen dem erheblich länger andauernden Aufwand weniger wirksam, zumal durch Gegenstandwürfe die Polizei von gewaltbereiten DemonstrantInnen ausgehen müsste und die PolizistInnen dadurch beim Wegtragen stärker gefährdet wären.\\
+Fraglich ist allerdings, ob das Treffen des Kopfes erforderlich war. Als milderes Mittel kommt das (wiederholte) Schießen auf andere Körperteile der Personen in Betracht. Selbst wenn B Gegenstände in Richtung auf die PolizistInnen geworfen hat, wäre dieses mildere Mittel ausreichend gewesen, um den B von weiterem Werfen abzubringen. Zwar ist die Druckstärke des Wasserwerfers (Modelle vor dem WaWe 10.000) schwierig dosierbar; doch gerade deswegen ist bei der Benutzung des Wasserwerfers besondere Vorsicht geboten, auf welche Personen und Körperteile gezielt wird. Folglich ist die Art und Weise des Wasserwerfereinsatzes unverhältnismäßig.
+% Es ist unklar, wie genau der Wasserwerfer eingesetzt wurde, daher ist die Verhältnismäßigkeit für die einzelnen Varianten zu bestimmen.
+
+
+\levelup\toc{Zwischenergebnis}
+Folglich ist die Vollstreckungsmaßnahme wegen fehlender materieller Rechtmäßigkeit rechtswidrig für den B ist ein Schadensausgleichsanspruch aus §51 II Nr. 1 BPolG einschlägig.
+
+\levelup\toc{Schaden}
+B erleidet eine schwere Körperverletzung durch den Verlust seines Augenlichts. Somit liegt ein Schaden vor. Wenn der Wasserwerferstrahl %( was für ein beklopptes Wort)
+nicht Bs Kopf getroffen hätte, dann hätte er keine Augenverletzung erlitten. Somit ist das polizeiliche Handeln auch kausal für den Schaden.
+
+\toc{Mitverschulden und Ergebnis}
+Fraglich ist, ob der Schadensausgleichsanspruch gem. §52 V BPolG wegen einem Mitverschulden des B reduziert werden kann.
+% siehe Handbuch L Rn 109
+Danach hat eine umfassende Interessenabwägung stattzufinden\footcite[§ 66 Rn 10]{HornmannHSOG}; bei der sowohl Umstände der Schadensverursachung als auch Art, Ausmaß und Folgen der Schädigung zu berücksichtigen sind\footcite[§52 BPolG Rn 10]{BPolGKommentar}.
+Hier könnte die Vorhersehbarkeit des Schadens sich reduzierend auf die Höhe des Schadensausgleichs auswirken. Aber die von B erlittenen Augenverletzungen sind so
+mannigfaltig, dass selbst wenn der Wasserstrahl ihn wegen Abirrens getroffen hat, keine Reduzierung angemessen ist. Es ist PolizistInnen wohl bekannt, dass derartige Verletzungen nicht unwahrscheinlich sind und deswegen besonders vorsichtig vorgegangen werden muss.\\
+Es könnte hier aber ein Mitverschulden des B gem. §52 V S. 2 BPolG vorliegen. Regelmäßig bemisst sich dieses nach der Art der Gefahrverursachung -- das Mitverschulden ist der vorwerfbare Verstoß gegen Gebote des eigenen Interesses\footnote{\cite[Rachor][L Rn 109]{HandbuchPolizeirecht}; \cite[§26 Rn 30]{PierothSchlinkPolizei}.}. B könnte hier ein Anscheinsstörer sein.\\
+Anscheinsstörer ist eine Person, bei der aus der ex-ante-Perspektive der Polizeibehörde aus legitimen Gründen der Anschein besteht, diese sei Verhaltens- oder ZustandsstörerIn; obwohl ex-post dies nicht festgestellt werden kann\footnote{\cite[Rn 253]{Schenke}; a.A. \cite[Rn 95]{Knemeyer}; nach dem es darauf ankommt, dass die Person selbst den Anschein erweckt hat.}. Umstritten ist, welche Rechtsfolgen diese Konstellation hat. Nach einer Meinung zählen AnscheinsstörerInnen auch als NichtstörerInnen\footcite[Rn 254]{Schenke}. Nach einer anderen Meinung darf die Polizei gegen AnscheinsstörerInnen genauso wie gegen normale StörerInnen vorgehen und diesen steht dann auf der Sekundärebene ein Entschädigungsanspruch als NichtstörerInnen zu\footnote{BGHZ 117, 303 (307);\cite[§9 Rn 21]{PierothSchlinkPolizei}}.\\
+Im Sachverhalt ist unklar, ob der B Gegenstände auf die Polizei geworfen hat. Es könnte somit sein, dass die Polizei ihn als Anscheinsstörer wahrgenommen hat. Ex-Post kann nicht festgestellt werden, ob er gewaltbereit Protest ausgeübt hat. Allerdings befinden wir uns hier auf der Sekundärebene, sodass beide Meinungen zum selben Ergebnis kommen und ein Streitentscheid entbehrlich ist.\\
+Doch hängt nicht nur von der Art der Gefahrverursachung ab. Es kommen auch sonstige Grundsätze des §254 BGB zur Anwendung. Bei "`Handeln auf eigene Gefahr"' kommt eine Minderung des Schadensersatzes in Betracht\footcite[§254 Rn 62]{Staudinger254}.\\
+B gibt an, als Passant nur Teil der Menschenmenge gewesen zu sein. Die hier vorliegende Protestaktion kann jedoch durch ihre Lautstärke, große Menschenansammlung und dem Polizeiaufgebot nicht übersehen werden. Spätestens wenn man Wasserwerfer erblickt, ist es vernünftig, den Platz zu umgehen, sofern man sich nicht mit dem Anliegen der Menschenmenge identifiziert. B macht auch nicht geltend, dass er keinen Umweg machen konnte, weil er sonst den den Zug nach Wiesbaden verpasst. Somit kann dem B hier ein Handeln auf eigene Gefahr attestiert werden. Dieses würde natürlich erst recht vorliegen, wenn er sich dem Protest bewusst angeschlossen hat.\\
+Folglich kann Bs Anspruch gem. §52 V BPolG reduziert werden.
+
+
+\levelup \toc{Amtshaftungsanspruch}
+Der Polizeivollzugsbeamte im Wasserwerfer hat hier in Ausübung eins öffentlich-rechtlichen Amts gehandelt und dabei die Amtspflicht der Vermeidung von rechtswidrigen Verletzungen der körperlichen Unversehrtheit verletzt.\\
+Fraglich ist, ob er dabei mit Verschulden gehandelt hat. Er müsste die Amtspflicht vorsätzlich oder fahrlässig verletzt haben\footcite[Rachor][L Rn 91]{HandbuchPolizeirecht}. Es ist aber unklar, warum der Wasserstrahl den B so hart getroffen hat. Bei einem zufälligen Abirren des Wasserstrahls ist nicht mal davon auszugehen, dass der Beamte die erforderliche Sorgfalt außer Acht gelassen hat. Folglich kann kein Verschulden festgestellt werden und es besteht für den B kein Anspruch aus Amtspflichtverletzung.
+
+\toc{Ergebnis}
+B hat einen Anspruch auf Schadensausgleich gem. §51 II Nr. 1 BPolG.
+
+\levelup\toc{Ansprüche von C}
+
+\sub{Anspruch auf Enteignungsentschädigung wegen der Dienst\-bar\-keit}
+C könnte wegen der Belastung seines Grundstücks mit einer Dienst\-bar\-keit einen Anspruch auf Entschädigung gem. Art. 14 III GG haben.
+
+\sub{Öffentlich-rechtliches Handeln}
+Zunächst muss öffentlich-rechtliches Handeln vorliegen\footcite[Rn 1112]{detterbeckVerwR}. Mit dem Planfeststellungsbeschluss, nachdem der Tunnel unter Bs Haus läuft, liegt ein öffentlich-rechtlicher Verwaltungsakt vor.
+
+\toc{Eigentumseingriff}
+Es müsste eine Enteignung vorliegen.\\
+Der Bau des Tunnels muss in eine vermögenswerte vom Art. 14 I S.1 GG geschützte Rechtsposition eingreifen. Eine Enteignung ist der gänzliche oder teilweise Entzug von Eigentumsrechten durch einen gezielten hoheitlichen Rechtsakt\footnote{\cite[§16 Rn 78ff.]{DetterbeckStaatshaftung}; BVerfGE 58, 300 (330f.); \cite[Rn 1118]{detterbeckVerwR}.}. Zu diesen Eigentumsrechten zählt auch die Nutzung und Verfügung über das Eigentum -- die Belastung eines Grundstückes mit einer Dienstbarkeit entzieht dieses Recht teilweise und ist keine Inhalts- und Schrankenbestimmung\footnote{BVerfGE 56, 249 (260); \cite[Rn 1113]{detterbeckVerwR}.}.\\
+Die Enteignung müsste durch einen Rechtsakt aufgrund eines Gesetzes (Administrativenteignung) oder durch ein formelles Gesetz (Legalenteignung) erfolgt sein. Für eine Administrativenteignung sind die Enteignungsvoraussetzungen in einem Gesetz normiert und die Enteignung geschieht durch einen administrativen Enteignungsakt\footcite[S. 180]{Ossenbuehl}. Hier könnte eine Administrativenteignung aufgrund von §22 AEG i.V.m. §44 HEG einschlägig sein.\\
+Nach §22 AEG ist eine Enteignung zulässig, wenn sie für den Eisenbahn-Bau oder Ausbau eines nach §18 AEG planfestgestellten Vorhabens notwendig ist. Für den Tunnelbau liegt hier ein unanfechtbarer Planfeststellungsbeschluss vor. Milderes Mittel könnte die Umgehung von Bs Grundstück sein. Dabei würden in Frankfurt allerdings nur andere Häuser unterfahren; zumal ICEs keine wendigen Kurven fahren können. Somit ist die Enteignung notwendig und die Enteignung ist gem. §22 AEG zulässig.\\
+
+
+\toc{Gemeinwohlinteresse}
+Nach Art. 14 III S. 1 GG muss die Enteignung zum Wohle der Allgemeinheit sein.\\
+Das Bauvorhaben dient hier zunächst den Interessen der Deutsche Bahn AG. Diese ist zwar ein privatrechtlich organisiertes Staatsunternehmen; doch ist deren Hauptzweck die Sicherung und Befriedigung der Verkehrsbedürfnisse, was in Art. 87e IV GG explizit als Wohl der Allgemeinheit benannt wird. Doch kann es nicht ausreichen, nur festzustellen, dass das "`Unternehmen dem Gemeinwohl dient; [...] die Verfassung verlangt vielmehr, daß die Enteignung zum Zwecke der Verwirklichung eines vom Gemeinwohl geforderten Vorhabens notwendig ist, mit dem eine staatliche Aufgabe erledigt werden soll"'\footnote{BVerfGE 56, 249 (278).}. Den demokratisch legitimierten Ent\-schei\-dungs\-trä\-gerInn\-en ist dabei aber auch ein gewisser Beurteilungsspielraum zu gewährleisten und die Prüfung der Gemeinwohlrechtfertigung hat sich an der gesetzlichen Ermächtigungsgrundlage zu orientieren\footnote{so auch \cite[Fn. 400; S. 136ff.]{Steinberg}.}. Nach §22 I AEG liegt -- wenn das Bauvorhaben für Eisenbahnbetriebsanlagen dient -- generell ein vernünftiger Grund für eine Enteignung vor\footcite[S. 232]{Pommer}.\\
+Der Tunnelbau soll dazu dienen, den Frankfurter Zugverkehrsknotenpunkt effektiver zu machen. Doch ist fraglich, ob die 10 Minuten Zeitgewinn notwendig sind, die allgemeinen Verkehrsbedürfnisse zu gewährleisten; zumal ja auch heftige Proteste gegen das Vorhaben stattfinden. Doch diese Proteste zeigen gerade auch die Umstrittenheit des Vorhabens -- den politischen EntscheidungsträgerInnen sollte hier ein Beurteilungsspielraum gewährleistet werden. Somit geschieht die Enteignung hier "`zum Wohle"' der Allgemeinheit.
+
+
+\toc{Verfassungsmäßigkeit der Entschädigungsregelung}
+Nach Art. 14 III S.2 GG muss das enteignungsanordnende Gesetz eine Entschädigungsregelung enthalten. Hierbei genügt eine salvatorische Entschädigungsklausel nicht\footcite[Rn 1126f.]{detterbeckVerwR}.\\
+Gem. §22 AEG gelten die Enteignungsgesetze der Länder; §44 HEG legt fest, dass die Entschädigung in einem einmaligen Geldbeitrag geleistet wird. Somit ist die Enteignungsermächtigungsgrundlage verfassungsgemäß.
+
+
+\toc{Verhältnismäßigkeit des Eingriffs}
+Die Enteignung müsste erforderlich und angemessen zur Erreichung des Gemeinwohls sein -- es das Mittel zu wählen, das den C am geringsten belastet\footcite[S. 205]{Ossenbuehl}.
+Es könnte sein, dass erstrebe Zeitgewinn im Zugverkehr von 10 Minuten kein besonders gewichtiges Ziel und der Tunnelbau nicht erforderlich für die Befriedigung der öffentlichen Verkehrsbedürfnisse ist. Doch die Belastung des Grundstückes mit einer Dienstbarkeit ist ein sehr geringwertiger Eingriff in das Eigentum. Folglich ist der Eigentumseingriff auch verhältnismäßig
+
+\toc{Rechtsfolgen}
+Anspruchsgegner ist nicht die die Enteignung genehmigende Behörde, sondern der Verwaltungsträger, der durch die Enteignung begünstigt wurde, ggf. auch ein privates Unternehmen\footcite[S. 212]{Ossenbuehl}. Begünstigt ist ein Hoheitsträger, wenn die Enteignung der Erfüllung einer ihm obliegenden Aufgabe dient\footcite[Grzeszick][§45 Rn 34]{Ehlers}.\\
+Der Tunnelbau dient dem Ausbau des Schienenverkehrs. Dies ist eine Aufgabe der teil-privatisierten Deutsche Bahn AG. Diese ist somit Anspruchsgegner.\\
+Grundsätzlich wird die Entschädigung für den Substanzverlust \footcite[§16 Rn 145]{DetterbeckStaatshaftung} (§38 II Nr. 1 HEG: Rechtsverlust) gewährleistet. B wird hier sein Nutzungsrecht entzogen. Dafür steht ihm ein Ausgleich zu.\\
+Es könnte ihm aber auch eine Entschädigung für Folgeschäden zustehen, wenn diese "`durch die Enteignung unmittelbar und zwangsnotwendig begründete Schäden sind"'\footnote{BGHZ 55, 294; \cite[S. 210]{Ossenbuehl}; \cite[Rn 313f.]{Kreft}.}. Hier kommen die Schäden an seinem Haus in Betracht. Doch diese sind keine Folge der Dienstbarkeit, sondern eine Folge des Zugbetriebs. \\
+Folglich steht dem C für Schäden am Haus kein Anspruch auf Enteignungsentschädigung zu.
+
+\toc{Ergebnis}
+B hat gem. §22 AEG i.V.m. §44 HEG einen Anspruch auf Entschädigung in Geld für die Belastung seines Grundstücks mit einer Dienstbarkeit.
+
+\levelup\toc{Ansprüche wegen Schäden am Haus}
+
+\sub{Entschädigung gem. §75 VwVfG}
+C könnte einen Anspruch auf Entschädigung der Erschütterungsschaden am Haus gem. §75 II S. 3f. VwVfG haben. \\
+Doch diese Entschädigung ist gewöhnlich Teil des Planfeststellungsbeschluss und müsste im Planergänzungsverfahren gem. §75 Ia VwVfG erfochten werden. Hier liegt jedoch ein unanfechtbarer Planfeststellungsbeschluss vor -- bei bestandskräftigen Planfeststellungsbeschlüssen kommt eine Entschädigung nur bei unvorhersehbaren Auswirkungen in Betracht\footcite[Dürr][§75 Rn 81]{Knack}.\\
+Unvorhersehbarkeit liegt vor, wenn C mit den nachteiligen Auswirkungen auf sein Eigentum nicht rechnen konnte -- hierbei wird auf die Fähigkeiten einer/s Sachverständigen abgestellt\footcite[Dürr][§75 Rn 88]{Knack}. Hier hat C die Auswirkungen schon befürchtet. Hausschäden aufgrund von Erschütterungen durch Züge im Untergrund sind auch schon in der Vergangenheit oft aufgetreten\footnote{Vgl. nur BVerwG 11 A 6/00; zu Schäden nach einem S-Bahn-Bau.}. Somit waren die negativen Folgen vorhersehbar.\\
+Folglich besteht kein Anspruch gem. §75 II S.3f. VwVfG.
+
+\toc{Anspruch aus enteignendem Eingriff}
+C könnte für die Risse an dem Haus einen Anspruch auf Entschädigung wegen enteignendem Eingriff haben.\\
+Nach diesem kann C Anspruch auf Entschädigung haben, obwohl es keine gesetzliche Entschädigungsregelung gibt. Rechtsgrundlage für diesen Anspruch sind die aufopferungsrechtlichen Grundsätze von §§74, 75 Einl. zum PrALR von 1974 in ihrer richterrechtlichen Ausprägung\footcite[Rn 1163]{detterbeckVerwR}.
+
+\sub{Öffentlich-rechtlicher Eigentumseingriff}
+Es müsste zunächst ein Eingriff durch öffentlich-rechtliches Handeln in geschütztes Eigentum i.S.d. Art. 14 GG vorliegen. Hier ist das Haus beschädigt.\\
+Die Schäden müssten eine unmittelbare Folge von öffentlich-rechtlichem Handeln sein\footcite[Rn 1165]{detterbeckVerwR}. Hier wurde von der DB AG ein Tunnel gebaut, durch den Zugverkehr läuft. Die DB AG ist zwar ein teil-privatisiertes Unternehmen, nimmt aber öffentliche Aufgaben wahr (siehe oben). Somit liegt öffentlich-rechtliches Handeln vor.\\
+Aufgrund des Zugbetriebs im Tunnel kam es zu Erschütterungen; diese führten zu Schäden an Cs Haus. Folglich ist der Eigentumseingriff unmittelbar durch öffentlich-rechtliches Handeln erfolgt.\\
+Des weiteren müsste das öffentlich-rechtliche Handeln rechtmäßig gewesen sein. Dies wäre u.A. nicht der Fall, wenn die Folgen durch zumutbare Vorkehrungen vermeidbar gewesen wären und das Handeln nicht dem Gemeinwohl dient\footcite[Rn 1167, 1169]{detterbeckVerwR}. Der Betrieb des ICE-Tunnels soll den Zugverkehr verbessern. Laut Sachverhalt keine Anzeichen dafür, dass die Erschütterungsschäden verhindert werden konnten.
+
+\toc{Sonderopfer}
+Es müsste ein Sonderopfer des C vorliegen\footcite[S. 276ff.]{Ossenbuehl}. Ein solches liegt vor, wenn die Einwirkung unzumutbar ist und eine bestimmte "`Opfergrenze"' überschritten wird\footcite[S. 277]{Ossenbuehl}. Diese Opfergrenze ist überschritten, wenn die Einwirkungen anderen Eigentümern nicht zugemutet werden und somit eine Ungleichbehandlung darstellen\footcite[§17 Rn 65]{DetterbeckStaatshaftung}.\\
+Hier verursacht der Zugbetrieb im Untergrund erhebliche Schäden an Cs Haus. Selbst wenn man ihn den anderen Hauseigentümern in einer Großstadt vergleicht, sind die wenigsten Grundstücke mit starken Zugerschütterungen durch z.B. U-Bahn-Tunnel, geschweige denn ICE-Tunnel belastet. Folglich sind die Schäden am Haus unzumutbar.
+
+\toc{Rechtsfolgen}
+Anspruchsgegner ist auch beim enteignenden Eingriff der begünstigte Hoheitsträger\footcite[Rn 1175, 1159]{detterbeckVerwR}; hier also die DB AG.\\
+Die Entschädigung erfolgt auch hier in Geld als Ausgleich für den Substanzverlust; aber auch in einer Höhe der für die Vermeidung von weiteren Schäden durch die Erschütterungsimmissionen erforderlichen Schutzeinrichtungen\footcite[§17 Rn 73]{DetterbeckStaatshaftung}.
+
+\levelup
+\levelup\toc{Ansprüche wegen der Aufstockungsverhinderung}
+
+\sub{Anspruch auf Enteignungsentschädigung}
+Weil dem C das Aufstocken seines Hauses unmöglich wurde, könnte er einen Anspruch auf Enteignungsentschädigung gem. Art. 14 III GG haben.\\
+Hierzu müsste zunächst ein geschütztes Eigentumsrecht verletzt werden. Hier kommt die Baufreiheit als vermögenswertes privates Recht in Betracht\footcite[S. 183]{Schulze}. Der Eingriff müsste aber auch durch einen gezielten hoheitlichen Akt erfolgen und "`darf [...] nicht nur zufällige Nebenfolge des Verwaltungshandelns sein"'\footcite[§16 Rn 125]{DetterbeckStaatshaftung}. Dass dem C die Aufstockung seines Hauses unmöglich gemacht war jedoch kein Ziel der DB AG. Dieser Effekt tritt lediglich als Nebenfolge auf.\\
+Somit hat C diesbezüglich keinen Anspruch auf Enteignungsentschädigung.
+
+\toc{Anspruch aus enteignendem Eingriff}
+C könnte diesbezüglich jedoch einen Anspruch aus enteignendem Eingriff haben.\\
+Wegen der Untertunnelung seines Grundstückes bewirkt, dass C sein Haus nicht mehr aufstocken. Somit liegt ein unmittelbarer Eigentumseingriff durch öffentlich-rechtliches Handeln vor.\\
+Fraglich ist, ob hier ein Sonderopfer des C vorliegt.
+Hier ist es dem C wegen dem Tunnelbau nicht mehr möglich, sein Hotel zu erweitern. Im Vergleich zu anderen, deren Baufreiheit eingeschränkt wird; könnte ihm dadurch evtl. zusätzlicher Gewinn entgehen. Doch in einer Großstadt, in der es häufig zu städtebaulichen Veränderungen durch Tunnelbau oder andere größere Projekte kommt, ist es völlig normal, dass vorher bautechnisch oder -rechtlich mögliche Vorhaben nicht mehr realisiert werden können. So kann man nicht wirklich von einer Ungleichbehandlung sprechen.\\
+Zudem ist die im Sachverhalt angesprochene Aufstockung nur eine Idee von ihm und er hat sie noch nicht einmal beantragt. Zu guter Letzt besteht nur die Möglichkeit eines höheren Gewinns und sein bisher stehendes kann er immer noch weiter nutzen, sodass der Eingriff nicht gewichtig ist und somit nicht unzumutbar ist.\\
+Folglich hat C diesbezüglich auch keinen Anspruch aus enteignendem Eingriff.
+
+% toc{Aufopferungsanspruch}
+
+
+\levelup\toc{Ergebnis}
+B hat wegen der Dienstbarkeit einen Anspruch auf Enteignungsentschädigung und einen Anspruch aus enteignendem Eingriff wegen der Schäden am Haus.
+\\
+\linebreak
+\bigskip 
+Ende der Bearbeitung
+\end{document}
